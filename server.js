@@ -24,7 +24,7 @@ mongoose.connect(process.env.DATABASE_URL,{
 */
 
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://kwame:kwame123@nodeexpressproject.mpx79.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
+mongoose.connect(DATBASE_URL,{
     useNewUrlParser: true
 })
 
